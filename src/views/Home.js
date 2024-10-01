@@ -109,7 +109,7 @@ export default function Home() {
     <div className='mainContainer'>
       <div className='boardContainer'>
           <Board>
-          <h2 className='title'>Wordle</h2>
+          <h2 className='title'>Glyph</h2>
             {[...Array(6)].map((arr, i) =>
               <Line guess={guessesHistoric.length === i ? guess : guessesHistoric[i] || null} colors={colorsHistoric?.length >= i ? colorsHistoric[i] : null} />
             )}
