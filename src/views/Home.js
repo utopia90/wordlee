@@ -13,7 +13,7 @@ import Modal from '../components/Modal/Modal'
 
 
 export default function Home() {
-  const [randomWord, setRandomWord] = React.useState('faena')
+  const [randomWord, setRandomWord] = React.useState('')
   let [guess, setGuess] = React.useState('')
   const [colors, setColors] = React.useState([])
   const [wordChecked, setWordChecked] = React.useState('')
@@ -56,7 +56,6 @@ export default function Home() {
       const randomWord = await response.json()
 
       if (randomWord && randomWord.length > 0) {
-        return
         setRandomWord(randomWord[0])
       }
     }
