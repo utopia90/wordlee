@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CL:wght@100..400&display=swap');
+
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playwrite CL";
+    width: 100%;
+}
+.boardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.title {
+   display: flex;
+   justify-content: center;
+}
+
+.instructions-container {
+    width: 30%;
+}
